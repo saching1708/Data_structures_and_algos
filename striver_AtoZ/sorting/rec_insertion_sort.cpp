@@ -13,6 +13,7 @@ void rIsort(vector<int> &v, int i, int n) {
         j--;
     }
     rIsort(v, i+1, n);
+    
 }
 
 int main() {
